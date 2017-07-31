@@ -7,9 +7,17 @@ import java.io.InputStreamReader;
 import java.net.URL;
 import java.util.List;
 
+/**
+ * Helper class to parse JSON from web URL to class objects.
+ */
 public class FlickerJsonParser {
     String url;
 
+    /**
+     * Read JSON from online URL address.
+     * @return JSON string
+     * @throws Exception
+     */
     private String readUrl() throws Exception {
         BufferedReader reader = null;
         try {
@@ -38,6 +46,7 @@ public class FlickerJsonParser {
         List<Item> items;
     }
 
+    //Media structure
     public class Media {
         String m;
     }
@@ -56,25 +65,38 @@ public class FlickerJsonParser {
         String tags;
     }
 
+    /**
+     * Initialize class.
+     * @param url web address we would like to parse JSON from
+     */
     public FlickerJsonParser(String url) {
         this.url = url;
     }
 
+    /**
+     * This will parse JSON from provided URL and return an array of String representing image titles.
+     * @return Array of titles for given URL.
+     */
     public String[] returnItems() {
         String londonJsonString = null;
         try {
+            //read JSON as string from URL provided
             londonJsonString = this.readUrl();
             Gson gson = new Gson();
+            //decode JSON string into class objects
             Page page = gson.fromJson(londonJsonString, Page.class);
             String[] ret = new String[page.items.size()];
             int pos = 0;
+            //for every item in JSON store it's title
             for (Item item : page.items) {
                 ret[pos++] = item.title;
             }
+            //return and array of titles
             return ret;
         } catch (Exception e) {
             e.printStackTrace();
         }
+        // in case of error return null
         return null;
     }
 }
