@@ -6,6 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import sun.applet.Main;
 
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class MainPage {
@@ -31,7 +32,15 @@ public class MainPage {
     }
 
     public String[] returnResults() {
-        String[] ret = new String[1];
+        List<MobileElement> cells = collectionView.findElementsByClassName("XCUIElementTypeCell");
+        String[] ret = new String[cells.size()];
+
+        int pos = 0;
+        for (MobileElement cell : cells) {
+            MobileElement stringCell = cell.findElementByClassName("XCUIElementTypeStaticText");
+            ret[pos++] = stringCell.getAttribute("value");
+        }
+
         return ret;
     }
 }

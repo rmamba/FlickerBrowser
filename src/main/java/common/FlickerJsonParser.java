@@ -60,13 +60,18 @@ public class FlickerJsonParser {
         this.url = url;
     }
 
-    public List<Item> returnItems() {
+    public String[] returnItems() {
         String londonJsonString = null;
         try {
             londonJsonString = this.readUrl();
             Gson gson = new Gson();
             Page page = gson.fromJson(londonJsonString, Page.class);
-            return page.items;
+            String[] ret = new String[page.items.size()];
+            int pos = 0;
+            for (Item item : page.items) {
+                ret[pos++] = item.title;
+            }
+            return ret;
         } catch (Exception e) {
             e.printStackTrace();
         }

@@ -2,18 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b3e5505-d821-4bbe-ba14-65b0d733e5ef" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/pages/pages/MainPage.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_core_1_0_11.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_html_0_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_gherkin_2_11_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/LondonStepDefs.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/pages/MainPage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/pages/SearchResultsPage.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/common/FlickerJsonParser$Item.class" afterPath="$PROJECT_DIR$/target/classes/common/FlickerJsonParser$Item.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/common/FlickerJsonParser$Media.class" afterPath="$PROJECT_DIR$/target/classes/common/FlickerJsonParser$Media.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/common/FlickerJsonParser.class" afterPath="$PROJECT_DIR$/target/classes/common/FlickerJsonParser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pages/MainPage.class" afterPath="$PROJECT_DIR$/target/classes/pages/MainPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/test/FlickerBrowserTests.class" afterPath="$PROJECT_DIR$/target/test-classes/test/FlickerBrowserTests.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlickerTest.iml" afterPath="$PROJECT_DIR$/FlickerTest.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/London.feature" afterPath="$PROJECT_DIR$/src/main/resources/London.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/common/FlickerJsonParser.java" afterPath="$PROJECT_DIR$/src/main/java/common/FlickerJsonParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/pages/pages/MainPage.java" afterPath="$PROJECT_DIR$/src/main/pages/pages/MainPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/test/FlickerBrowserTests.java" afterPath="$PROJECT_DIR$/src/test/java/test/FlickerBrowserTests.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,8 +46,8 @@
       <file leaf-file-name="MainPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/pages/pages/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="25" column="5" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="690">
+              <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,25 +55,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FlickerBrowserTests.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FlickerBrowserTests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/test/FlickerBrowserTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="27" column="49" lean-forward="false" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
+            <state relative-caret-position="264">
+              <caret line="45" column="20" lean-forward="true" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1210#1211#0" expanded="true" />
-                <element signature="e#1239#1240#0" expanded="true" />
+                <element signature="e#1279#1280#0" expanded="true" />
+                <element signature="e#1308#1309#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FlickerJsonParser.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FlickerJsonParser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/common/FlickerJsonParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="62" column="37" lean-forward="true" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="37" />
+            <state relative-caret-position="384">
+              <caret line="73" column="23" lean-forward="false" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1430#1431#0" expanded="true" />
@@ -115,13 +112,13 @@
         <option value="$PROJECT_DIR$/src/main/resources/London.feature" />
         <option value="$PROJECT_DIR$/src/main/java/LondonStepDefs.java" />
         <option value="$PROJECT_DIR$/src/main/pages/pages/SearchResultsPage.java" />
-        <option value="$PROJECT_DIR$/src/main/pages/pages/MainPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/jasonParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/JasonParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/common/JasonParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/common/JsonParser.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/FlickerBrowserTests.java" />
+        <option value="$PROJECT_DIR$/src/main/pages/pages/MainPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/common/FlickerJsonParser.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/FlickerBrowserTests.java" />
       </list>
     </option>
   </component>
@@ -464,24 +461,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FlickerBrowserTests_evaluateLondonSearchResults - 2017.07.31 at 13h 27m 44s.xml">
-      <configuration name="FlickerBrowserTests.evaluateLondonSearchResults" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FlickerBrowserTests_evaluateLondonSearchResults - 2017.07.31 at 13h 31m 14s.xml">
-      <configuration name="FlickerBrowserTests.evaluateLondonSearchResults" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FlickerBrowserTests_evaluateLondonSearchResults - 2017.07.31 at 13h 36m 22s.xml">
-      <configuration name="FlickerBrowserTests.evaluateLondonSearchResults" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FlickerBrowserTests_evaluateLondonSearchResults - 2017.07.31 at 13h 37m 40s.xml">
-      <configuration name="FlickerBrowserTests.evaluateLondonSearchResults" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FlickerBrowserTests_evaluateLondonSearchResults - 2017.07.31 at 13h 38m 48s.xml">
-      <configuration name="FlickerBrowserTests.evaluateLondonSearchResults" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FlickerBrowserTests_evaluateLondonSearchResults - 2017.07.31 at 13h 42m 13s.xml">
-      <configuration name="FlickerBrowserTests.evaluateLondonSearchResults" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FlickerBrowserTests_evaluateLondonSearchResults - 2017.07.31 at 13h 45m 34s.xml">
       <configuration name="FlickerBrowserTests.evaluateLondonSearchResults" configurationId="JUnit" />
     </history-entry>
@@ -492,6 +471,24 @@
       <configuration name="FlickerBrowserTests.evaluateLondonSearchResults" configurationId="JUnit" />
     </history-entry>
     <history-entry file="FlickerBrowserTests_evaluateLondonSearchResults - 2017.07.31 at 14h 47m 38s.xml">
+      <configuration name="FlickerBrowserTests.evaluateLondonSearchResults" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FlickerBrowserTests_evaluateLondonSearchResults - 2017.07.31 at 15h 16m 01s.xml">
+      <configuration name="FlickerBrowserTests.evaluateLondonSearchResults" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FlickerBrowserTests_evaluateLondonSearchResults - 2017.07.31 at 15h 18m 10s.xml">
+      <configuration name="FlickerBrowserTests.evaluateLondonSearchResults" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FlickerBrowserTests_evaluateLondonSearchResults - 2017.07.31 at 15h 28m 36s.xml">
+      <configuration name="FlickerBrowserTests.evaluateLondonSearchResults" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FlickerBrowserTests_evaluateLondonSearchResults - 2017.07.31 at 15h 31m 25s.xml">
+      <configuration name="FlickerBrowserTests.evaluateLondonSearchResults" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FlickerBrowserTests_evaluateLondonSearchResults - 2017.07.31 at 15h 37m 02s.xml">
+      <configuration name="FlickerBrowserTests.evaluateLondonSearchResults" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FlickerBrowserTests_evaluateLondonSearchResults - 2017.07.31 at 15h 39m 12s.xml">
       <configuration name="FlickerBrowserTests.evaluateLondonSearchResults" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -508,7 +505,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -519,7 +516,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39956093" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39956093" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -561,19 +558,13 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/test/FlickerBrowserTests.java</url>
-          <line>46</line>
+          <url>file://$PROJECT_DIR$/src/main/pages/pages/MainPage.java</url>
+          <line>43</line>
           <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/common/FlickerJsonParser.java</url>
-          <line>67</line>
-          <properties />
-          <option name="timeStamp" value="5" />
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="6" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -628,34 +619,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/pages/pages/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="690">
+          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/FlickerBrowserTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="27" column="49" lean-forward="false" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1210#1211#0" expanded="true" />
-            <element signature="e#1239#1240#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/common/FlickerJsonParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="62" column="37" lean-forward="true" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="37" />
+        <state relative-caret-position="384">
+          <caret line="73" column="23" lean-forward="false" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1430#1431#0" expanded="true" />
             <element signature="e#1460#1461#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/FlickerBrowserTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="45" column="20" lean-forward="true" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1279#1280#0" expanded="true" />
+            <element signature="e#1308#1309#0" expanded="true" />
           </folding>
         </state>
       </provider>

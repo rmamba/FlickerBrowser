@@ -1,6 +1,8 @@
 package test;
+import io.appium.java_client.MobileElement;
 import io.appium.java_client.ios.IOSDriver;
 import org.junit.After;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -36,13 +38,22 @@ public class FlickerBrowserTests {
     }
 
     @Test
-    public void evaluateLondonSearchResults() {
+    public void evaluateLondonSearchResults() throws InterruptedException {
         //Enter search word: 'London'
-//        String londonJsonStringBefore = readUrl(jsonUrl+"London");
         mainPage.searchFor("London");
 
         //Evaluate results:
         FlickerJsonParser flickerJsonParser = new FlickerJsonParser(jsonUrl + "London");
-        List<FlickerJsonParser.Item> items = flickerJsonParser.returnItems();
+        String[] items = flickerJsonParser.returnItems();
+
+        Thread.sleep(1000);
+
+        String[] results = mainPage.returnResults();
+
+        Assert.assertEquals(items.length, results.length);
+
+        for (int i=0; i<results.length; i++) {
+            Assert.assertEquals(results[i], items[i]);
+        }
     }
 }
