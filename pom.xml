@@ -44,5 +44,10 @@
             <version>1.0.11</version>
             <type>pom</type>
         </dependency>
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-core</artifactId>
+            <version>RELEASE</version>
+        </dependency>
     </dependencies>
 </project>
